@@ -13,7 +13,10 @@ pip install -r requirements.txt
 
 # run the api server
 *Not for production usage
+
 *default port served at 8000
+
+*default db location is ./db.json
 
 ```bash
 uvicorn api:app
