@@ -25,6 +25,8 @@ uvicorn api:app
 # Run the processor
 The processor periodically combs through all feeds every 30 secs for new articles. Note that every time a new feed is introduced, current articles from the rss xml are treated as *new*
 
+**Newly discovered articles are printed in this stdout**
+
 ```bash
 python processor.py
 ```
