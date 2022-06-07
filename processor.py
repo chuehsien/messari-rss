@@ -177,7 +177,7 @@ def do_one_pass():
 
 if __name__ == '__main__':
     do_one_pass()
-    time.sleep(10)
+    # time.sleep(10)
     print(f"Starting monitoring loop, runs every {interval_secs} secs")
     schedule.every(interval_secs).seconds.do(do_one_pass)
     

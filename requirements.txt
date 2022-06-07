@@ -4,3 +4,4 @@ tinydb
 prefect>=2.0b
 schedule
 beautifulsoup4
+lxml
