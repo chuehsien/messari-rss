@@ -11,26 +11,26 @@ pip install -r requirements.txt
 
 ## Usage
 
-# run the api server
+# Run the api server
 *Not for production usage
 
-*default port served at 8000
+*Default port served at 8000
 
-*default db location is ./db.json
+*Default db location is ./db.json
 
 ```bash
 uvicorn api:app
 ```
 
-# run the processor
+# Run the processor
 The processor periodically combs through all feeds every 30 secs for new articles. Note that every time a new feed is introduced, current articles from the rss xml are treated as *new*
 
 ```bash
 python processor.py
 ```
-## optional
+## Optional
 
-# inject sample feeds
+# Inject sample feeds
 ```bash
 python init.py
 ```
